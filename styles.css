@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(90deg, #000428, #004e92);
+    color: white;
+  }
+  
+  #title,#description{
+    text-align: center;
+  }
+  
+  #survey-form{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 25px;
+  }
+  
+  fieldset{
+    border-radius: 25px;
+    border-color: rgba(0,0,0,0.2);
+  }
+  
+  label{
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  #radios,#checks{
+    margin: unset;
+  }
+  
+  #name-label{
+    margin-top: 20px;
+  }
+  
+  input,select{
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input[type="radio"]{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="checkbox"]{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="textarea"]{
+    height: 50px;
+  }
+  
+  #submit{
+    background-color: green;
+  }
+  
+  textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
